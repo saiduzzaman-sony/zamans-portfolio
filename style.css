@@ -7,8 +7,8 @@
 
 
 .background {
-    margin-top: 52px;
-    height: 90vh;
+    margin-top: 80px;
+    height: calc(100vh - 80px);
     width: 100%;
     background-image: url(img/head.png);
     background-repeat: no-repeat;
@@ -17,6 +17,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.navbar-property {
+    z-index: 1000;
+    height: 80px;
 }
 
 .header {
@@ -28,15 +34,19 @@
     padding: 30px;
 }
 .header h2 {
-    color: #213F5F;
+    
+    
 }
 
 .greetings {
     text-align: center;
-    font-family: oswald;
+    font-family: roboto;
 }
 .greetings h2 {
-    font-size: 70px;
+    color: #213F5F;
+    font-size: 90px;
+    line-height: 1;
+    font-weight: 700;
 }
 
 .name {
@@ -45,14 +55,15 @@
 }
 .name h2 {
     color: #fff;
-    font-size: 100px;
+    font-size: 130px;
+    font-weight: 700;
 }
 .about{
     
 }
 .about h2 {
     font-family: oswald;
-    font-size: 80px;
+    font-size: 48px;
     font-weight: 700;
     
 }
@@ -83,13 +94,13 @@
 
 .skills h2{
     font-family: oswald;
-    font-size: 80px;
+    font-size: 48px;
     font-weight: 700;
 }
 .skill-details h2{
     font-family: oswald;
-    font-size: 60px;
-    font-weight: 700;
+    font-size: 36px;
+    font-weight: 500;
 }
 .skill-details p{
     font-family: roboto;
@@ -98,28 +109,28 @@
 
 #projects-page h2{
     font-family: oswald;
-    font-size: 80px;
+    font-size: 48px;
     font-weight: 700;
 }
 .slider-image{
-    height: 800px;
+    height: calc(100vh - 80px);
     width: 80%;
 }
 .slider-content img{
-    height: 750px;
+    height: 600px;
     width: 80%;  
     margin: auto;
 }
 
 #contact-page h2{
     font-family: oswald;
-    font-size: 80px;
+    font-size: 48px;
     font-weight: 700;
 }
 #contact-page h3 {
     font-family: oswald;
-    font-size: 60px;
-    font-weight: 700;
+    font-size: 36px;
+    font-weight: 500;
 }
 .handles{
     background-color: #6F8BCD;
