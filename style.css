@@ -1,0 +1,149 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.background {
+    margin-top: 52px;
+    height: 90vh;
+    width: 100%;
+    background-image: url(img/head.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.header {
+    color: #000;
+    height: max-content;
+    grid-area: 2/2/5/5;
+    text-align: center;
+    border: 5px solid;
+    padding: 30px;
+}
+.header h2 {
+    color: #213F5F;
+}
+
+.greetings {
+    text-align: center;
+    font-family: oswald;
+}
+.greetings h2 {
+    font-size: 70px;
+}
+
+.name {
+    text-align: center;
+    font-family: oswald;
+}
+.name h2 {
+    color: #fff;
+    font-size: 100px;
+}
+.about{
+    
+}
+.about h2 {
+    font-family: oswald;
+    font-size: 80px;
+    font-weight: 700;
+    
+}
+.name-designation h2{
+    font-size: 50px;
+    font-family: roboto;
+}
+.name-designation h1{
+    font-size: 100px;
+    font-weight: 700;
+    font-family: oswald;
+}
+.name-designation h3{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: oswald;
+}
+.about-paragraph{
+    width: 70%;
+    font-family: roboto;
+}
+.about-paragraph p{
+    font-size: 20px;
+}
+.about-paragraph a{
+    font-size: 30px;
+}
+
+.skills h2{
+    font-family: oswald;
+    font-size: 80px;
+    font-weight: 700;
+}
+.skill-details h2{
+    font-family: oswald;
+    font-size: 60px;
+    font-weight: 700;
+}
+.skill-details p{
+    font-family: roboto;
+    font-size: 25px;
+}
+
+#projects-page h2{
+    font-family: oswald;
+    font-size: 80px;
+    font-weight: 700;
+}
+.slider-image{
+    height: 800px;
+    width: 80%;
+}
+.slider-content img{
+    height: 750px;
+    width: 80%;  
+    margin: auto;
+}
+
+#contact-page h2{
+    font-family: oswald;
+    font-size: 80px;
+    font-weight: 700;
+}
+#contact-page h3 {
+    font-family: oswald;
+    font-size: 60px;
+    font-weight: 700;
+}
+.handles{
+    background-color: #6F8BCD;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.handles a i {
+    font-size: 100px;
+    color: #fff;
+}
+.email a{
+    font-size: 30px;
+    text-decoration: none;
+}
+.phone a{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.footer {
+    
+}

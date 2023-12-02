@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}    
+body{
+    width: 70%;
+    margin: auto;
+    background-color: #0391CE;
+    font-family: serif;
+    color: #fff;
+}
+h1, h2 {
+    font-family: serif;
+}
+.head{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+.title{
+    padding-bottom: 10px;
+}
+.title-details{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid;
+}
+.profile-image{
+    display: flex;
+    flex-direction: column;
+}
+.profile-image img{
+    padding-left: auto;
+    margin-left: auto;
+    width: 180px;
+    
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+.link:hover{
+    color: #0247FE;
+}
+
+.email{
+    width: max-content;
+    text-align: start;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.mailing-address{
+    text-align: start;
+    width: 250px;
+}
+.mailing-address h2{
+    border-bottom: 2px solid;
+    display: inline-block;
+    
+}
+.career-plan{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.career-plan h2{
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+}
+.career-plan p{
+    padding: 5px 0px;
+}
+
+.educational-qualifications{
+    margin: 10px 0px;
+}
+.educational-qualifications h2{
+    border-bottom: 2px solid;
+    padding: 5px 0px;
+    
+}
+.bachelor table{
+    border-spacing: 15px;
+}
+.HSC table{
+    border-spacing: 15px;
+}
+.SSC table{
+    border-spacing: 15px;
+}
+.skills{
+    margin: 10px 0px;
+}
+.skills h2{
+    border-bottom: 2px solid;
+    padding: 5px 0px;
+    
+}
+.skills ul{
+    margin: 0px 20px;
+}
+.Personal-Attributes{
+    margin: 10px 0px;
+}
+.Personal-Attributes h2{
+    border-bottom: 2px solid;
+    padding: 5px 0px;
+    
+}
+.Personal-Attributes ul{
+    margin: 0px 20px;
+    padding: 5px 0px;
+}
+.languages{
+    margin: 10px 0px;
+}
+.languages h2{
+    border-bottom: 2px solid;
+    padding: 5px 0px;
+    
+}
+.languages ul{
+    margin: 0px 20px;
+    padding: 5px 0px;
+}
+.personal-details{
+    margin: 10px 0px;
+}
+.personal-details h2{
+    border-bottom: 2px solid;
+    padding: 5px 0px;
+    
+}
+.personal-details table{
+    border-spacing: 15px;
+}
+.experience{
+    margin: 10px 0px;
+}
+.experience h2{
+    border-bottom: 2px solid;
+    padding: 5px 0px;
+    
+}
+.experience ul{
+    margin: 0px 20px;
+    padding: 5px 0px;
+}
+.experience ul li table{
+    border-spacing: 10px;
+}
+.declaration{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin: 10px 0px;
+    padding: 5px 0px;
+    background-color: #fff;
+    
+}
+.declaration p{
+    color: black;  
+}
+.footer{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    
+}
+@media only screen and (max-width: 767px){
+    .title-details{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .mailing-address{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .profile-image{
+        margin: auto;
+    }
+    .profile-image img{
+        width: 150px;
+    }
+}
